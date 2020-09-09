@@ -27,7 +27,7 @@ class LaratusServiceProvider extends ServiceProvider
 
             $server
                 ->setApiPath('/api/tus') // tus server endpoint.
-                ->setUploadDir('/var/storage/'); // uploads dir.
+                ->setUploadDir(config('laratus.storage')); // uploads dir.
             
             $server->event()->addListener('tus-server.upload.created', function(TusEvent $event) {
                 event(new TusCreated($event));
