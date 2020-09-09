@@ -1,0 +1,15 @@
+{
+    "name": "fareedalbandar/laratus",
+    "description": "A laravel implementation of tus-php",
+    "type": "library",
+    "require": {
+        "ankitpokhrel/tus-php": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FareedAlBandar",
+            "email": "fareedalbender@gmail.com"
+        }
+    ]
+}
