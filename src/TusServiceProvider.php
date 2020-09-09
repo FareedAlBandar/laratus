@@ -1,7 +1,11 @@
 <?php
 
-namespace Laratus;
+namespace FareedAlBandar\Laratus;
 
+use FareedAlBandar\Laratus\Events\TusComplete;
+use FareedAlBandar\Laratus\Events\TusCreated;
+use FareedAlBandar\Laratus\Events\TusMerged;
+use FareedAlBandar\Laratus\Events\TusProgress;
 use TusPhp\Tus\Server as TusServer;
 use TusPhp\Events\TusEvent;
 use Illuminate\Support\ServiceProvider;

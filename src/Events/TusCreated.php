@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratus\Events;
+namespace FareedAlBandar\Laratus\Events;
 
 use TusPhp\Events\TusEvent;
 use Illuminate\Broadcasting\Channel;

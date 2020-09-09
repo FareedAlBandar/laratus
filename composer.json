@@ -1,7 +1,7 @@
 {
     "name": "fareedalbandar/laratus",
     "description": "A laravel implementation of tus-php",
-    "type": "library",
+    "keywords": ["laravel", "tus", "download", "upload", "resumable"],
     "require": {
         "ankitpokhrel/tus-php": "^2.0"
     },
@@ -11,5 +11,20 @@
             "name": "FareedAlBandar",
             "email": "fareedalbender@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "FareedAlBandar\\Laratus\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FareedAlBandar\\Laratus\\LaratusServiceProvider"
+            ]
+
+        }
+    }
+
 }
